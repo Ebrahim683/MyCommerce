@@ -1,4 +1,4 @@
-package com.example.mycommerce;
+package com.example.mycommerce.ACTIVITYS;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -7,6 +7,11 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.mycommerce.API.ApiController;
+import com.example.mycommerce.R;
+import com.example.mycommerce.CLASSES.ResponseModel;
+import com.example.mycommerce.CLASSES.SharedPreferenceManager;
+import com.example.mycommerce.CLASSES.UserModel;
 import com.example.mycommerce.databinding.ActivitySignUpBinding;
 import com.google.android.material.snackbar.Snackbar;
 

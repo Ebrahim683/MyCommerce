@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyCommerce/app/src/main/res/drawable/blanck.xml" value="0.2158974358974359" />
         <entry key="..\:/MyCommerce/app/src/main/res/drawable/btn_bg.xml" value="0.2203125" />
+        <entry key="..\:/MyCommerce/app/src/main/res/drawable/fill.xml" value="0.2158974358974359" />
         <entry key="..\:/MyCommerce/app/src/main/res/drawable/splash_animation.xml" value="0.2203125" />
+        <entry key="..\:/MyCommerce/app/src/main/res/layout/activity_liquide_swipe_intro_slider.xml" value="0.1875" />
         <entry key="..\:/MyCommerce/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/MyCommerce/app/src/main/res/layout/activity_sign_in.xml" value="0.20416666666666666" />
         <entry key="..\:/MyCommerce/app/src/main/res/layout/activity_sign_up.xml" value="0.21" />
         <entry key="..\:/MyCommerce/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/MyCommerce/app/src/main/res/layout/fragment_a.xml" value="0.1875" />
+        <entry key="..\:/MyCommerce/app/src/main/res/layout/fragment_b.xml" value="0.1875" />
+        <entry key="..\:/MyCommerce/app/src/main/res/layout/fragment_c.xml" value="0.1875" />
         <entry key="..\:/MyCommerce/app/src/main/res/layout/nav_header.xml" value="0.22" />
         <entry key="..\:/MyCommerce/app/src/main/res/menu/nav_menu.xml" value="0.18854166666666666" />
       </map>

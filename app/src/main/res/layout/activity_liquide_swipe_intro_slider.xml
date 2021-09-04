@@ -3,23 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/liqID"
     android:layout_height="match_parent"
-    android:background="@color/orange"
-    tools:context=".ACTIVITYS.SplashScreenActivity">
+    tools:context=".ACTIVITYS.LiquidSwipeIntroSliderActivity">
 
 
-    <TextView
-        android:id="@+id/splashT"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/bubblegum_sans"
-        android:text="Welcome"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="80sp"
+    <com.cuberto.liquid_swipe.LiquidPager
+        android:id="@+id/liquidPagerID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

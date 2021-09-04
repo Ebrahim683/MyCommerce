@@ -1,15 +1,14 @@
-package com.example.mycommerce;
+package com.example.mycommerce.ACTIVITYS;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.mycommerce.R;
 import com.example.mycommerce.databinding.ActivitySplashScreenBinding;
 
 public class SplashScreenActivity extends AppCompatActivity {
@@ -32,7 +31,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 			@Override
 			public void run() {
 				try {
-					startActivity(new Intent(SplashScreenActivity.this,SignInActivity.class));
+					startActivity(new Intent(SplashScreenActivity.this,LiquidSwipeIntroSliderActivity.class));
 					finish();
 				}catch (Exception e){
 					e.printStackTrace();

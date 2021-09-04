@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/signInLayout"
     android:background="@drawable/ecommerce1_bg"
-    tools:context=".SignInActivity">
+    tools:context=".ACTIVITYS.SignInActivity">
 
 
         <RelativeLayout

@@ -2,4 +2,7 @@
     <string name="app_name">MyCommerce</string>
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="des">Wide Selection of Products from Verified Supplier. Contact Now and Get Live Quotes! Contact Verified Suppliers Online.</string>
 </resources>

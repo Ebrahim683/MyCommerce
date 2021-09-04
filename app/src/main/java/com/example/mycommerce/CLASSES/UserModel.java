@@ -1,4 +1,4 @@
-package com.example.mycommerce;
+package com.example.mycommerce.CLASSES;
 
 public class UserModel {
 

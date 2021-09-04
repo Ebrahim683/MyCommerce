@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FFAE19</color>
     <color name="seljuk_blue">#468FEB</color>
+    <color name="fragmentA">#DFDEF6</color>
+    <color name="fragmentB">#72B1FF</color>
+    <color name="fragmentC">#C6CCC7</color>
 </resources>

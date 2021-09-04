@@ -1,4 +1,6 @@
-package com.example.mycommerce;
+package com.example.mycommerce.API;
+
+import com.example.mycommerce.CLASSES.ResponseModel;
 
 import retrofit2.Call;
 import retrofit2.http.Field;

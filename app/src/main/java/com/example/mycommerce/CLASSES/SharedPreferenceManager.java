@@ -1,4 +1,4 @@
-package com.example.mycommerce;
+package com.example.mycommerce.CLASSES;
 
 import android.content.Context;
 import android.content.SharedPreferences;

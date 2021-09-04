@@ -1,16 +1,18 @@
-package com.example.mycommerce;
+package com.example.mycommerce.ACTIVITYS;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
+
+import com.example.mycommerce.R;
+import com.example.mycommerce.CLASSES.SharedPreferenceManager;
 import com.example.mycommerce.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationView;
 import java.util.Objects;

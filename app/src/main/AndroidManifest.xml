@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mycommerce">
-<uses-permission android:name="android.permission.INTERNET"/>5
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.MyCommerce">
+        android:theme="@style/Theme.MyCommerce"
+        android:usesCleartextTraffic="true">
         <activity
-            android:name=".SignUpActivity"
+            android:name=".ACTIVITYS.LiquidSwipeIntroSliderActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ACTIVITYS.SignUpActivity"
             android:exported="true" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".ACTIVITYS.SignInActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".ACTIVITYS.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
@@ -27,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ACTIVITYS.MainActivity"
             android:exported="true" />
 
         <meta-data
